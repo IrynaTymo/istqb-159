@@ -34,11 +34,6 @@ select first_name, last_name, extract(year from age(birth_date))as age from empl
 (extract(year from age(birth_date)))desc limit 3;
 
 
-11. Show the list of all cities where the employees are from.
-
-select city from employees group by city;
-
-
 
 
 
