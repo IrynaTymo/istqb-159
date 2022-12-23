@@ -2,7 +2,7 @@ User story: as a user, I want to be able to access my account when I forget my p
 Scenario: password recovery
 Given: user opens a page of registration
 When:  the user want to recover the password. The user click on "Forget password"
-And: user enters a valid email 
+And: user enter a valid email 
 Then: The system sends a message in the email with a link to change the password.
 Given: User opens link via email and reset password
 When: a password change form appears
