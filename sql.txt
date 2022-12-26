@@ -18,7 +18,7 @@ from employees where city = 'London';
 
 select city, max(extract(year from age(birth_date)))as greatest,
 min (extract(year from age(birth_date))) as smallest, avg(extract(year from age(birth_date)))as average
-from employees group by city;!
+from employees group by city;
 
 8. Show the list of cities in which the average age of employees is greater than 60 (the average age is also to be shown)
 
